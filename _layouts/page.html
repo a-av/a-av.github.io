@@ -1,0 +1,61 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+{% include head.html %}
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <header>
+      {% include header.html %}
+    </header>
+
+    <nav id="nav">
+      <ul>
+        <li><a href="/#one" alt="Главная" class="active">{{site.nav1}}</a></li>
+        <li><a href="/#two" alt="Наши практики">{{site.nav2}}</a></li>
+        <li><a href="/#three" alt="Блог">{{site.nav3}}</a></li>
+        <li><a href="/#four" alt="Контакты">{{site.nav4}}</a></li>
+      </ul>
+    </nav>
+
+    <footer>
+      {% include social-links.html %}
+    </footer>
+  </section>
+
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+
+      <section>
+        <div class="container">
+          <header class="major">
+            <h2>{{page.title}}</h2>
+          </header>
+          {{ content }}
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Footer -->
+    <section id="footer">
+      {% include footer.html %}
+    </section>
+
+  </div>
+
+
+
+  <!-- Scripts -->
+  {%include script.html %}
+
+</body>
+</html>

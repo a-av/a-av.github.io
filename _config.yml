@@ -1,0 +1,111 @@
+# Site settings
+title: Юридическая компания Ампаре
+name:  Юридическая компания Ампаре
+author: Ампаре
+work:  Юридическая компания
+year: 2019
+description: > # this means to ignore newlines until "baseurl:"
+  Юридические услуги: консультации, составление претензий, исков, договоров. Судебное представительство.
+baseurl: "" # the subpath of your site, e.g. /blog
+lang: "ru"
+url: "https://ampare.ru" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+
+# Posts settings
+future: true
+safe: false
+lsi: false
+excerpt_separator: "\n\n"
+
+# Theme settings
+compress_html:
+  comments: ["<!-- ", " -->"]
+  clippings: all
+  endings: all
+
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+
+images: '/assets/images'
+
+# Navigation
+nav1: "Услуги"
+nav2: "О нас"
+nav3: "Цены"
+nav4: "Контакты"
+
+# Section1
+sec1: "Юридические услуги в Ульяновске"
+sec2: ""
+sec3: "Проанализируем ситуацию, разработаем стратегию защиты, подготовим и направим претензию,
+составим исковое заявление, поможем с проведением необходимых экспертиз и сбором доказательств."
+
+# Section 2
+sec4: "Наша команда"
+sec5: "В нашей компании нет случайных людей. Вокруг нас хорошие и умные люди — профессиональные юристы.
+Мы культивируем знания и профессионализм. Никто не работает исключительно ради денег."
+icon1: "fas fa-code"
+icont1: "Защита прав потребителей"
+icon2: "fa-cubes"
+icont2: "Автоюрист"
+icon3: "fa-book"
+icont3: "Арбитражный юрист"
+icon4: "fa-coffee"
+icont4: "Проверки пожарной безопасности"
+icon5: "fa-bolt"
+icont5: "Трудовое право"
+icon6: "fa-users"
+icont6: "Договорная работа"
+
+# Section 3
+sec6: "Цены на юридические услуги"
+sec7: ""
+sec8: "Андрей Арзамасков"
+sec9: "<p>Юрист</p>
+<p><br>
+Ульяновский государственный университет, бакалавр юриспруденции, закончил с отличикем<br>
+Ульяновский государственный университет, магистр права</p>"
+sec11: "Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet."
+sec12: "Snapped dark matter in the wild"
+sec13: "Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet."
+
+# Section 4
+sec14: "Контакты"
+sec15: "Ваши права нарушены? Свяжитесь с нами!"
+icon7: "fa-phone"
+icont7: "+7 960 360-00-10"
+iconl7: "79603600010"
+icon8: "fa-phone"
+icont8: "+7 929 798-21-79"
+iconl8: "79297982179"
+icon9: "fa-envelope"
+icont9: "ask@ampare.ru"
+icon10: "fa-map"
+icont10: "Западный бульвар, 27 офис 206 Ульяновск 432008"
+icon11: "fa-calendar"
+
+# Social Links
+# facebook: ampare
+# twitter:  ampare
+#google: username
+instagram: amparelaw
+#pinterest: username
+#linkedin: username
+#youtube: username
+#spotify: username
+#lastfm: username
+#github: ampare
+#stackoverflow: username
+#quora: username
+#reddit: username
+#medium: username
+#vimeo: username
+#keybase: username
+vk: amparelaw
+email: ask@ampare.ru

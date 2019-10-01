@@ -1,0 +1,44 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+{% include head.html %}
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <header>
+      {% include header.html %}
+    </header>
+
+    <nav id="nav">
+      {% include nav.html %}
+    </nav>
+
+    <footer>
+      {% include social-links.html %}
+    </footer>
+  </section>
+
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    {{ content }}
+
+    <!-- Footer -->
+    <section id="footer">
+      {% include footer.html %}
+    </section>
+
+  </div>
+
+
+
+  <!-- Scripts -->
+  {%include script.html %}
+
+</body>
+</html>
