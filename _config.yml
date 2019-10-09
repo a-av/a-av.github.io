@@ -43,37 +43,39 @@ nav4: "Контакты"
 # Section1
 sec1: "Юридические услуги в Ульяновске"
 sec2: ""
-sec3: "Проанализируем ситуацию, разработаем стратегию защиты, подготовим и направим претензию,
-составим исковое заявление, поможем с проведением необходимых экспертиз и сбором доказательств."
+sec3: "Проанализируем ситуацию, разработаем стратегию защиты, подготовим и&nbsp;направим претензию,
+составим исковое заявление, поможем с&nbsp;проведением необходимых экспертиз и&nbsp;сбором доказательств."
 
 # Section 2
 sec4: "Наша команда"
-sec5: "В нашей компании нет случайных людей. Вокруг нас хорошие и умные люди — профессиональные юристы.
-Мы культивируем знания и профессионализм. Никто не работает исключительно ради денег."
+sec5: "В&nbsp;нашей компании нет случайных людей. Вокруг нас хорошие и&nbsp;умные люди&nbsp;&mdash; профессиональные юристы.
+Мы&nbsp;культивируем знания и&nbsp;профессионализм. Никто не&nbsp;работает исключительно ради денег."
 icon1: "fas fa-code"
 icont1: "Защита прав потребителей"
 icon2: "fa-cubes"
 icont2: "Автоюрист"
 icon3: "fa-book"
-icont3: "Арбитражный юрист"
+icont3: "Арбитражные споры"
 icon4: "fa-coffee"
-icont4: "Проверки пожарной безопасности"
+icont4: "Пожарная безоспасность"
 icon5: "fa-bolt"
-icont5: "Трудовое право"
+icont5: "Пенсионные вопросы"
 icon6: "fa-users"
 icont6: "Договорная работа"
 
 # Section 3
-sec6: "Цены на юридические услуги"
-sec7: ""
-sec8: "Андрей Арзамасков"
-sec9: "<p>Юрист</p>
-<p><br>
-Ульяновский государственный университет, бакалавр юриспруденции, закончил с отличикем<br>
-Ульяновский государственный университет, магистр права</p>"
-sec11: "Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet."
-sec12: "Snapped dark matter in the wild"
-sec13: "Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet."
+sec6: "Цены на&nbsp;юридические услуги"
+sec7: "Каждая проблема индивидуальна и&nbsp;невозможно сходу сказать сколько это будет стоить.
+Поэтому точная стоимость услуги определяется после ознакомления с&nbsp;материалами.
+Примерный уровень наших цен&nbsp;&mdash; в&nbsp;таблице ниже."
+# sec8: "Андрей Арзамасков"
+# sec9: "<p>Юрист</p>
+# <p><br>
+# Ульяновский государственный университет, бакалавр юриспруденции, закончил с отличием<br>
+# Ульяновский государственный университет, магистр права</p>"
+# sec11: "Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet."
+# sec12: "Snapped dark matter in the wild"
+# sec13: "Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet."
 
 # Section 4
 sec14: "Контакты"

@@ -3087,7 +3087,7 @@
 					}
 
 			ul.feature-icons li,
-			ul.contact-icons li {
+      ul.contact-icons li {
 				display: block;
 				width: 100%;
 			}
