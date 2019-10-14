@@ -13,27 +13,168 @@ layout: null
     <generator>Jekyll v{{ jekyll.version }}</generator>
     <!-- Main -->
     <div id="main">
+        <!-- One -->
+        <section id="one">
+            <div class="container">
+                <header class="major">
+                    <h2>{{site.sec1}}</h2>
+                    <p>{{site.sec2}}</p>
+                </header>
+                <p>{{site.sec3}}</p>
+                <ul class="feature-icons">
+                    <li>
+                        <h4>{{site.icont1}}</h4>
+                        &mdash;&nbsp;возврат некачественного товара<br>
+                        &mdash;&nbsp;расторжение навязанных договоров<br>
+                        &mdash;&nbsp;взыскание материального ущерба
+                    </li>
+                    <li>
+                        <h4>{{site.icont2}}</h4>
+                        &mdash;&nbsp;обжалование штрафов ГИБДД<br>
+                        &mdash;&nbsp;споры со&nbsp;страховыми компаниями<br>
+                        &mdash;&nbsp;независимая экспертиза при ДТП
+                    </li>
+                    <li>
+                        <h4>{{site.icont3}}</h4>
+                        &mdash;&nbsp;представление интересов в&nbsp;суде<br>
+                        &mdash;&nbsp;взыскание дебиторской задолженности<br>
+                        &mdash;&nbsp;споры по&nbsp;договорам
+                    </li>
+                    <li>
+                        <h4>{{site.icont5}}</h4>
+                        &mdash;&nbsp;обжалование решений ПФР<br>
+                        &mdash;&nbsp;дела о&nbsp;назначении досрочных пенсий
+                    </li>
+                    <li>
+                        <h4>{{site.icont6}}</h4>
+                        &mdash;&nbsp;подготовка проектов договоров<br>
+                        &mdash;&nbsp;правовая экспертиза договоров<br>
+                        &mdash;&nbsp;переработка договоров
+                    </li>
+                    <li>
+                        <h4>{{site.icont4}}</h4>
+                        &mdash;&nbsp;подготовка к&nbsp;проверкам<br>
+                        &mdash;&nbsp;оспаривание предписаний и&nbsp;протоколов<br>
+                        &mdash;&nbsp;экспертиза проектной документации
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-      <!-- One -->
-      <section id="one">
-        {% include section1.html %}
-    </section>
+        <!-- Two -->
+        <section id="two">
+            <div class="container">
+                <h3>{{site.sec4}}</h3>
+                <p>{{site.sec5}}</p>
+                <div class="features">
+                    <article>
+                        <a href="#" class="image"><img src="/assets/images/pic-1.jpg" alt="" /></a>
+                        <div class="inner">
+                            <h4>Андрей Арзамасков</h4>
+                            <p>
+                                <b>Юрист</b> <br>
+                                <i>Образование: </i>высшее юридическое, Ульяновский государственный университет, окончил с&nbsp;отличием,<br>
+                                высшее техническое, АГЗ МЧС России.<br>
+                                <i>Профессиональный стаж </i>более 20&nbsp;лет, в&nbsp;сфере юриспруденции с&nbsp;2009&nbsp;года. Работал на&nbsp;руководящих должностях в&nbsp;МЧС России. С&nbsp;2016 года&nbsp;&mdash; частная практика.<br>
+                                <i>Специализация: </i>защита прав потребителей, административное право, договорная работа, взыскание дебиторской задолженности.
+                            </p>
+                            <p><a href="tel:{{site.iconl7}}" class="btn">Связаться</a></p>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="#" class="image"><img src="/assets/images/pic-2.jpg" alt="" /></a>
+                        <div class="inner">
+                            <h4>Сергей Тутучкин</h4>
+                            <p>
+                                <b>Юрист</b> <br>
+                                <i>Образование: </i>высшее юридическое, Ульяновский государственный университет.<br>
+                                <i>Профессиональный стаж </i>в&nbsp;сфере юриспруденции с&nbsp;2013&nbsp;года. Имеет большой опыт работы в&nbsp;области военного права. С&nbsp;2016 года&nbsp;&mdash; частная практика.<br>
+                                <i>Специализация: </i>военное право, пенсионное законодательство, страховые споры.
+                            </p>
+                            <p><a href="tel:{{site.iconl8}}" class="btn">Связаться</a></p>
+                        </div>
 
-    <!-- Two -->
-    <section id="two">
-        {% include section2.html %}
-    </section>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-    <!-- Three -->
-    <section id="three">
-        {% include section3.html %}
-    </section>
+        <!-- Three -->
+        <section id="three">
+            <div class="container">
+                <h3>{{site.sec6}}</h3>
+                <p>{{site.sec7}}</p>
+                <table>
+                    <tr>
+                        <td>Устная консультация</td>
+                        <td>бесплатно</td>
+                    </tr>
+                    <tr>
+                        <td>Письменная консультация</td>
+                        <td>1&nbsp;000 рублей</td>
+                    </tr>
+                    <tr>
+                        <td>Cоставление претензии</td>
+                        <td>1&nbsp;000 рублей</td>
+                    </tr>
+                    <tr>
+                        <td>Подготовка искового заявления, жалобы</td>
+                        <td>2&nbsp;500 рублей</td>
+                    </tr>
+                    <tr>
+                        <td>Участие в&nbsp;судебном заседании</td>
+                        <td>5&nbsp;000 рублей за&nbsp;1&nbsp;день</td>
+                    </tr>
+                    <tr>
+                        <td>Обжалование административного штрафа</td>
+                        <td>3&nbsp;000 рублей</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
 
-    <!-- Four -->
-    <section id="four">
-        {% include section4.html %}
-    </section>
+        <!-- Four -->
+        <section id="four">
+            <div class="container">
+                <h3>{{site.sec14}}</h3>
+                <p>{{site.sec15}}</p>
+                <div itemscope itemtype="http://schema.org/LocalBusiness">
+                    <span itemprop="name" class="visually-hidden">Юридическая компания Ампаре</span>
+                    <ul class="contact-icons">
+                        <li class="{{site.icon7}}">
+                            <a class="phone" href="tel:+79603660010" title="Позвонить по номеру +7 960 366-00-10">
+                                <span class="visually-hidden">Телефон:</span>
+                                <span itemprop="telephone">+7 960 366-00-10</span>
+                            </a>
+                        </li>
+                        <li class="{{site.icon8}}">
+                            <a class="phone" href="tel:+79297982179" title="Позвонить по номеру +7 929 798-21-79">
+                                <span class="visually-hidden">Телефон:</span>
+                                <span itemprop="telephone">+7 929 798-21-79</span>
+                            </a>
+                        </li>
+                        <li class="{{site.icon9}}">
+                            <a class="link-left" href="mailto:ask@ampare.ru" title="Написать письмо">
+                                <span class="visually-hidden">Электронная почта: </span>
+                                <span itemprop="email">ask@ampare.ru</span>
+                            </a>
+                        </li>
+                        <li class="{{site.icon10}}" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                            <span itemprop="streetAddress">Западный бульвар, дом&nbsp;27, офис&nbsp;206,</span>
+                            <span itemprop="postalCode">432008</span>,
+                            <span itemprop="addressLocality">Ульяновск</span>
+                        </li>
+                        <li class="{{site.icon11}}">
+                            <data itemprop="openingHours" value="Mo-Fr 09:00−18:00">Понедельник&nbsp;&mdash; пятница<br>с&nbsp;9.00 до&nbsp;18.00</data>
+                            <p>
+                                <data itemprop="openingHours" value="Sa 09:00−13:00">Суббота&nbsp;&mdash; по договоренности</data>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-</div>
+    </div>
   </channel>
 </rss>
