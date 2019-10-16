@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'fa-viber';
-	src:url('assets/fonts/fa-viber.eot?-3dwksg');
-	src:url('assets/fonts/fa-viber.eot?#iefix-3dwksg') format('embedded-opentype'),
-		url('assets/fonts/fa-viber.ttf?-3dwksg') format('truetype'),
-		url('assets/fonts/fa-viber.woff?-3dwksg') format('woff'),
-		url('assets/fonts/fa-viber.svg?-3dwksg#fa-viber') format('svg');
+	src:url('/assets/fonts/fa-viber.eot?-3dwksg');
+	src:url('/assets/fonts/fa-viber.eot?#iefix-3dwksg') format('embedded-opentype'),
+		url('/assets/fonts/fa-viber.ttf?-3dwksg') format('truetype'),
+		url('/assets/fonts/fa-viber.woff?-3dwksg') format('woff'),
+		url('/assets/fonts/fa-viber.svg?-3dwksg#fa-viber') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
